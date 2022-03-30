@@ -1,0 +1,11 @@
+applications:
+
+- name: nodeapp-training
+  # path: .
+  buildpack: nodejs_buildpack
+  # memory: 128M
+  # provides:
+  #     properties:
+  #     srv-url: ${default-url}
+# services:
+    # - TPM_Uaa1
